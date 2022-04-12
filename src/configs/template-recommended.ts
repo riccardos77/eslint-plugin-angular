@@ -1,0 +1,32 @@
+export = {
+  overrides: [
+    {
+      files: ['*.html'],
+      plugins: ['@angular-eslint'],
+      extends: ['plugin:@angular-eslint/template/all'],
+      rules: {
+        '@angular-eslint/template/accessibility-alt-text': 'warn',
+        '@angular-eslint/template/accessibility-elements-content': 'warn',
+        '@angular-eslint/template/accessibility-label-for': 'warn',
+        '@angular-eslint/template/accessibility-label-has-associated-control': 'warn',
+        '@angular-eslint/template/accessibility-table-scope': 'warn',
+        '@angular-eslint/template/accessibility-valid-aria': 'warn',
+        '@angular-eslint/template/banana-in-box': 'warn',
+        '@angular-eslint/template/click-events-have-key-events': 'off',
+        '@angular-eslint/template/conditional-complexity': 'warn',
+        '@angular-eslint/template/cyclomatic-complexity': 'off',
+        '@angular-eslint/template/eqeqeq': 'warn',
+        '@angular-eslint/template/i18n': 'off',
+        '@angular-eslint/template/mouse-events-have-key-events': 'warn',
+        '@angular-eslint/template/no-any': 'warn',
+        '@angular-eslint/template/no-autofocus': 'warn',
+        '@angular-eslint/template/no-call-expression': 'off',
+        '@angular-eslint/template/no-distracting-elements': 'warn',
+        '@angular-eslint/template/no-duplicate-attributes': 'warn',
+        '@angular-eslint/template/no-negated-async': 'warn',
+        '@angular-eslint/template/no-positive-tabindex': 'warn',
+        '@angular-eslint/template/use-track-by-function': 'warn',
+      },
+    },
+  ],
+};
