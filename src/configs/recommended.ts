@@ -129,6 +129,7 @@ export = {
         '@typescript-eslint/non-nullable-type-assertion-style': 'warn',
         // disabled by prettier, don't override '@typescript-eslint/object-curly-spacing': ['warn', 'always'],
         '@typescript-eslint/padding-line-between-statements': 'warn',
+        '@typescript-eslint/parameter-properties': 'off',
         '@typescript-eslint/prefer-as-const': 'warn',
         '@typescript-eslint/prefer-enum-initializers': 'warn',
         '@typescript-eslint/prefer-for-of': 'warn',
